@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A3F6A2D82CF7ABDA00D40EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F6A2B82CF7ABD900D40EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F6A2BF2CF7ABD900D40EE2;
+			remoteInfo = JWAudioToText;
+		};
+		A3F6A2E22CF7ABDA00D40EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F6A2B82CF7ABD900D40EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F6A2BF2CF7ABD900D40EE2;
+			remoteInfo = JWAudioToText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3F6A2C02CF7ABD900D40EE2 /* JWAudioToText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWAudioToText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F6A2D72CF7ABDA00D40EE2 /* JWAudioToTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWAudioToTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F6A2E12CF7ABDA00D40EE2 /* JWAudioToTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWAudioToTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A3F6A2E92CF7ABDA00D40EE2 /* Exceptions for "JWAudioToText" folder in "JWAudioToText" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A3F6A2BF2CF7ABD900D40EE2 /* JWAudioToText */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A3F6A2C22CF7ABD900D40EE2 /* JWAudioToText */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A3F6A2E92CF7ABDA00D40EE2 /* Exceptions for "JWAudioToText" folder in "JWAudioToText" target */,
+			);
+			path = JWAudioToText;
+			sourceTree = "<group>";
+		};
+		A3F6A2DA2CF7ABDA00D40EE2 /* JWAudioToTextTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JWAudioToTextTests;
+			sourceTree = "<group>";
+		};
+		A3F6A2E42CF7ABDA00D40EE2 /* JWAudioToTextUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JWAudioToTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F6A2BD2CF7ABD900D40EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F6A2D42CF7ABDA00D40EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F6A2DE2CF7ABDA00D40EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F6A2B72CF7ABD900D40EE2 = {
+			isa = PBXGroup;
+			children = (
+				A3F6A2C22CF7ABD900D40EE2 /* JWAudioToText */,
+				A3F6A2DA2CF7ABDA00D40EE2 /* JWAudioToTextTests */,
+				A3F6A2E42CF7ABDA00D40EE2 /* JWAudioToTextUITests */,
+				A3F6A2C12CF7ABD900D40EE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F6A2C12CF7ABD900D40EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F6A2C02CF7ABD900D40EE2 /* JWAudioToText.app */,
+				A3F6A2D72CF7ABDA00D40EE2 /* JWAudioToTextTests.xctest */,
+				A3F6A2E12CF7ABDA00D40EE2 /* JWAudioToTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F6A2BF2CF7ABD900D40EE2 /* JWAudioToText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F6A2EA2CF7ABDA00D40EE2 /* Build configuration list for PBXNativeTarget "JWAudioToText" */;
+			buildPhases = (
+				A3F6A2BC2CF7ABD900D40EE2 /* Sources */,
+				A3F6A2BD2CF7ABD900D40EE2 /* Frameworks */,
+				A3F6A2BE2CF7ABD900D40EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A3F6A2C22CF7ABD900D40EE2 /* JWAudioToText */,
+			);
+			name = JWAudioToText;
+			packageProductDependencies = (
+			);
+			productName = JWAudioToText;
+			productReference = A3F6A2C02CF7ABD900D40EE2 /* JWAudioToText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3F6A2D62CF7ABDA00D40EE2 /* JWAudioToTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F6A2EF2CF7ABDA00D40EE2 /* Build configuration list for PBXNativeTarget "JWAudioToTextTests" */;
+			buildPhases = (
+				A3F6A2D32CF7ABDA00D40EE2 /* Sources */,
+				A3F6A2D42CF7ABDA00D40EE2 /* Frameworks */,
+				A3F6A2D52CF7ABDA00D40EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F6A2D92CF7ABDA00D40EE2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A3F6A2DA2CF7ABDA00D40EE2 /* JWAudioToTextTests */,
+			);
+			name = JWAudioToTextTests;
+			packageProductDependencies = (
+			);
+			productName = JWAudioToTextTests;
+			productReference = A3F6A2D72CF7ABDA00D40EE2 /* JWAudioToTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3F6A2E02CF7ABDA00D40EE2 /* JWAudioToTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F6A2F22CF7ABDA00D40EE2 /* Build configuration list for PBXNativeTarget "JWAudioToTextUITests" */;
+			buildPhases = (
+				A3F6A2DD2CF7ABDA00D40EE2 /* Sources */,
+				A3F6A2DE2CF7ABDA00D40EE2 /* Frameworks */,
+				A3F6A2DF2CF7ABDA00D40EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F6A2E32CF7ABDA00D40EE2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A3F6A2E42CF7ABDA00D40EE2 /* JWAudioToTextUITests */,
+			);
+			name = JWAudioToTextUITests;
+			packageProductDependencies = (
+			);
+			productName = JWAudioToTextUITests;
+			productReference = A3F6A2E12CF7ABDA00D40EE2 /* JWAudioToTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F6A2B82CF7ABD900D40EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					A3F6A2BF2CF7ABD900D40EE2 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					A3F6A2D62CF7ABDA00D40EE2 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A3F6A2BF2CF7ABD900D40EE2;
+					};
+					A3F6A2E02CF7ABDA00D40EE2 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A3F6A2BF2CF7ABD900D40EE2;
+					};
+				};
+			};
+			buildConfigurationList = A3F6A2BB2CF7ABD900D40EE2 /* Build configuration list for PBXProject "JWAudioToText" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3F6A2B72CF7ABD900D40EE2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A3F6A2C12CF7ABD900D40EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F6A2BF2CF7ABD900D40EE2 /* JWAudioToText */,
+				A3F6A2D62CF7ABDA00D40EE2 /* JWAudioToTextTests */,
+				A3F6A2E02CF7ABDA00D40EE2 /* JWAudioToTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F6A2BE2CF7ABD900D40EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F6A2D52CF7ABDA00D40EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F6A2DF2CF7ABDA00D40EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F6A2BC2CF7ABD900D40EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F6A2D32CF7ABDA00D40EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F6A2DD2CF7ABDA00D40EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3F6A2D92CF7ABDA00D40EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F6A2BF2CF7ABD900D40EE2 /* JWAudioToText */;
+			targetProxy = A3F6A2D82CF7ABDA00D40EE2 /* PBXContainerItemProxy */;
+		};
+		A3F6A2E32CF7ABDA00D40EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F6A2BF2CF7ABD900D40EE2 /* JWAudioToText */;
+			targetProxy = A3F6A2E22CF7ABDA00D40EE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3F6A2EB2CF7ABDA00D40EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JWAudioToText/JWAudioToText.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JWAudioToText/Preview Content\"";
+				DEVELOPMENT_TEAM = VZ6957Q335;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JWAudioToText/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JWLLC.JWAudioToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3F6A2EC2CF7ABDA00D40EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JWAudioToText/JWAudioToText.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JWAudioToText/Preview Content\"";
+				DEVELOPMENT_TEAM = VZ6957Q335;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JWAudioToText/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JWLLC.JWAudioToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3F6A2ED2CF7ABDA00D40EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3F6A2EE2CF7ABDA00D40EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F6A2F02CF7ABDA00D40EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ6957Q335;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JWLLC.JWAudioToTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWAudioToText.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JWAudioToText";
+			};
+			name = Debug;
+		};
+		A3F6A2F12CF7ABDA00D40EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ6957Q335;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JWLLC.JWAudioToTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWAudioToText.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JWAudioToText";
+			};
+			name = Release;
+		};
+		A3F6A2F32CF7ABDA00D40EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ6957Q335;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JWLLC.JWAudioToTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JWAudioToText;
+			};
+			name = Debug;
+		};
+		A3F6A2F42CF7ABDA00D40EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ6957Q335;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JWLLC.JWAudioToTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JWAudioToText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F6A2BB2CF7ABD900D40EE2 /* Build configuration list for PBXProject "JWAudioToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F6A2ED2CF7ABDA00D40EE2 /* Debug */,
+				A3F6A2EE2CF7ABDA00D40EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F6A2EA2CF7ABDA00D40EE2 /* Build configuration list for PBXNativeTarget "JWAudioToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F6A2EB2CF7ABDA00D40EE2 /* Debug */,
+				A3F6A2EC2CF7ABDA00D40EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F6A2EF2CF7ABDA00D40EE2 /* Build configuration list for PBXNativeTarget "JWAudioToTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F6A2F02CF7ABDA00D40EE2 /* Debug */,
+				A3F6A2F12CF7ABDA00D40EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F6A2F22CF7ABDA00D40EE2 /* Build configuration list for PBXNativeTarget "JWAudioToTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F6A2F32CF7ABDA00D40EE2 /* Debug */,
+				A3F6A2F42CF7ABDA00D40EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3F6A2B82CF7ABD900D40EE2 /* Project object */;
+}
